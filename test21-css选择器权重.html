@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    /* 选择器权重
+    !important>>行内style>>id>class>元素 
+    包含选择器看权重之和
+    */
+div .pclass{
+        background-color: brown;
+    }
+div p{
+    background-color: bisque;
+}
+p{
+    background-color: aqua!important;
+}
+.iddiv{
+       background-color: rgb(158, 158, 88); 
+    }
+.cdiv{
+       background-color: rgb(68, 68, 17); 
+    }
+ div{
+       background-color: yellow; 
+    }
+
+</style>
+   
+</head>
+<body>
+    <div class="cdiv" id="iddiv">11111
+<p class="pclass" style="background-color: blueviolet;">2222222</p>
+
+    </div>
+    <p>3333333333</p>
+</body>
+</html>

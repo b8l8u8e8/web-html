@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+    text-align 文本水平对齐 left center right
+     -->
+    <style>
+        /* div默认占一行可以用css设置盒子宽度，背景颜色来证明 */
+        .box1 {
+            text-align: center;
+            width: 500px;
+            background-color: aqua;
+        }
+
+        .box2 {
+            width: 500px;
+            background-color: rgb(121, 188, 188);
+            /* 两端对齐(多行文本用，利用空间)属性 */
+            text-align: justify;
+        }
+        .box3{
+            width: 500px;
+            height:100px;
+            background-color: beige;
+            /* 行高 */
+            line-height: 100px;
+            text-align: center;
+        }
+        .box4 {
+            width: 500px;
+            /* height:100px; */
+            background-color: rgb(121, 188, 188);
+            /* 两端对齐(多行文本用，利用空间)属性 */
+            text-align: justify;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">hello world</div>
+    <div class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente temporibus explicabo id tempora
+        recusandae est nulla doloribus fuga quia qui, exercitationem quis ipsa minus non reiciendis. Nostrum atque
+        quibusdam tempora?</div>
+    <div class="box3">大家好</div>
+    <div class="box4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente temporibus explicabo id tempora
+        recusandae est nulla doloribus fuga quia qui, exercitationem quis ipsa minus non reiciendis. Nostrum atque
+        quibusdam tempora?</div>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* 伪类选择器a标签比较明显，注意顺序不能改变 */
+/* 访问之前 */
+a:link{
+    color: aquamarine;
+}
+/* 访问之后 */
+a:visited{
+    color: rgba(252, 0, 0, 0.584);
+}
+/* 鼠标移上 */
+a:hover{
+    color: orange;
+}
+/*鼠标激活（点击时候）*/
+a:active{
+    color: green;
+}
+    </style>
+</head>
+<body>
+    <a href="http://baidu.com" title="点击进百度" target="">百度</a>
+</body>
+</html>
